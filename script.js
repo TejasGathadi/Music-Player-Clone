@@ -12,14 +12,14 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songs = [
     {songName: "Badshah - SANAK | 3:00 AM Sessions", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
     {songName: "Maan Meri Jaan | Champagne Talk | King", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Tere Pyaar Mein | Tu Jhoothi Main Makkaar | Pritam | Arijit, Nikhita", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "DAKU | INDERPAL MOGA | CHANI NATTAN | NEW PUNJABI SONG", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "SPACESHIP - AP DHILLON | SHINDA KAHLON | GMINXR", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Tere Pyaar Mein | Tu Jhoothi Main Makkaar", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "DAKU | INDERPAL MOGA | CHANI NATTAN", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "SPACESHIP - AP DHILLON", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
     {songName: "Kaleshi Chori", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "BROWN MUNDE - AP DHILLON | GURINDER GILL | SHINDA KAHLON | GMINXR", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "DIVINE - BANDANA GANG Feat. Sikander Kahlon | SHUTDOWN", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "DIVINE - Baazigar feat. Armani White | Prod. by Karan Kanchan", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "DIVINE - Bornfire feat. Russ", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "BROWN MUNDE - AP DHILLON", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "DIVINE - BANDANA GANG", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "DIVINE - Baazigar", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "DIVINE - Bornfire", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
